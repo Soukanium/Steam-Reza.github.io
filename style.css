@@ -1,0 +1,427 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b2838;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* header */
+.container {
+  background-color: #171a21;
+}
+.dwnld {
+  width: 15%;
+  margin-right: 1rem;
+}
+.navbarbtn {
+  text-align: end;
+  padding-right: 27rem;
+}
+.navbarbtn button {
+  background-position: 10px 6.5px;
+  background-image: url(https://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+  background-repeat: no-repeat;
+  font-size: x-small;
+  display: inline-flex;
+  cursor: pointer;
+  border: none;
+  color: #ededed;
+  background-color: #5d852a;
+  padding: 6px;
+  padding-left: 1.8rem;
+  padding-right: 0.6rem;
+  margin-right: 8px;
+  margin-top: 0.5rem;
+}
+.navbarbtn span {
+  color: #a7a8aa;
+}
+.navbarbtn a {
+  font-size: x-small;
+  text-align: end;
+  text-decoration: none;
+  color: #a7a8aa;
+  padding: 8px;
+}
+.logo {
+  width: 9%;
+  margin-right: 1rem;
+  margin-bottom: 1.8rem;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  transform: translate(-13rem, 0);
+}
+.navbar a {
+  text-decoration: none;
+  color: #a7a8aa;
+  margin: 8px;
+  margin-top: 15px;
+  margin-bottom: 42px;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  display: absolute;
+  color: #ededed;
+}
+
+/* navbar2 */
+.navimg {
+  transform: translate(30%, 3rem);
+  left: 50%;
+  aspect-ratio: 4/4;
+  display: absolute;
+  object-fit: contain;
+  box-shadow: #0000;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  margin-bottom: 4%;
+}
+
+.navbar2 {
+  display: inline-flex;
+  display: absolute;
+  transform: translate(25rem, 20px);
+  background: linear-gradient(90deg, #0b7091, #004386e1);
+  box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar2 a {
+  font-size: small;
+  color: #ededed;
+  text-decoration: none;
+  margin: 0.7rem 15px;
+}
+
+.navbar2 .invis {
+  padding-right: 23.4rem;
+}
+
+.navbar2 input {
+  display: absolute;
+  background-color: #edededad;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  padding: 8px;
+  width: 15%;
+  margin-top: 5px;
+  height: 28px;
+  z-index: 0;
+}
+
+.navbar2 button {
+  cursor: pointer;
+  transform: translate(-35px, 2px);
+  display: absolute;
+  color: white;
+  background: none;
+  border: none;
+  z-index: 1;
+  padding: 0;
+}
+
+/* content 1 */
+.c1 {
+  display: absolute;
+  margin-left: 25rem;
+  margin-bottom: 5%;
+}
+
+.bg {
+  cursor: pointer;
+  width: 70rem;
+  height: 23.6rem;
+  background-color: #171a21;
+  box-shadow: 0 8px 16px 10px rgba(0, 0, 0, 0.3);
+  transition: all ease 0.3s;
+}
+
+.bg:hover {
+  filter: drop-shadow(2px 2px 4px rgba(40, 133, 255, 0.5));
+}
+
+.c1 p {
+  display: absolute;
+  font-size: larger;
+  transform: translate(15rem, -23rem);
+  text-align: center;
+  color: #ffff;
+  z-index: 2;
+}
+
+.c1 span {
+  color: #ededed;
+  display: flex;
+  padding: 5px;
+}
+
+.imgc1 {
+  display: absolute;
+  max-width: 670px;
+  box-shadow: 0 8px 16px 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.screenshoots {
+  display: grid;
+  flex-wrap: wrap;
+  max-width: 330px;
+  margin: 5px auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.screenshoots img {
+  width: 200%;
+  max-width: 150px;
+  margin-bottom: 1rem;
+  transform: translate(21.5rem, -23rem);
+}
+
+.content1 {
+  display: absolute;
+  padding: 20px;
+  transform: translate(42rem, -8.5rem);
+}
+.title {
+  color: #ededed;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.title span {
+  font-size: smaller;
+  font-weight: 100;
+}
+
+.top-seller {
+  display: inline-block;
+  background-color: #6d7880;
+  color: #ededed;
+  padding: 2px 8px;
+  font-size: 12px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+.pricing {
+  display: flex;
+  align-items: center;
+}
+.discount {
+  background-color: #668300;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.original-price {
+  color: #6d7880;
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+.final-price {
+  color: #5d852a;
+  font-size: 18px;
+  font-weight: bold;
+}
+.icon {
+  margin-left: 7rem;
+}
+
+/* ads */
+
+.ads {
+  transform: translate(0, -12rem);
+  text-align: center;
+}
+
+.ads img {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+  transition: all ease 0.3s;
+}
+
+.ads img:hover {
+  filter: drop-shadow(2px 2px 4px rgba(40, 133, 255, 0.5));
+}
+
+/* content 2 */
+.c2 {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10rem;
+}
+
+.category {
+  display: absolute;
+  text-align: left;
+  color: #ededed;
+  margin-left: 25rem;
+  margin-bottom: 1rem;
+}
+
+.list {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.list span {
+  font-weight: bold;
+  color: #ffff;
+}
+
+.carousel-item img {
+  position: relative;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.carousel-item span {
+  text-shadow: 4px 4px 8px #000000;
+  width: 100%;
+  position: absolute;
+  transform: translate(-64.5rem, 16rem);
+  z-index: 3;
+}
+
+.carousel-item {
+  margin: 1rem;
+}
+
+/* c3 */
+.sign-in-container {
+  transform: translate(29.5rem);
+  background-color: #2a475e;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 10rem;
+}
+.sign-in-container p {
+  color: #ededed;
+  margin: 10px 0;
+}
+.sign-in-button {
+  background-color: #5c7e10;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.sign-in-button:hover {
+  background-color: #4b6a0c;
+}
+.browse-steam {
+  margin-top: 20px;
+  text-align: center;
+}
+.browse-steam h2 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+.browse-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.browse-button {
+  background: linear-gradient(90deg, #0e9ece, #003b75e1);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 150px;
+  text-align: center;
+  transition: color 0.3s ease;
+  margin-bottom: 10rem;
+}
+.browse-button:hover {
+  background: linear-gradient(90deg, #005a79, #002e5ce1);
+}
+
+/* c4 */
+.c4 {
+  background-color: #0d0f13;
+  text-align: center;
+  padding: 50px 0;
+}
+.c4 h1 {
+  color: #66c0f4;
+  font-size: 24px;
+}
+.c4 p {
+  color: #8f98a0;
+  font-size: 14px;
+}
+.c4 .sign-in-btn {
+  background-color: #5c7e10;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.c4 .sign-in-btn:hover {
+  background-color: #4b6a0c;
+}
+.c4 .sign-up {
+  color: #8f98a0;
+  font-size: 14px;
+}
+.c4 .sign-up a {
+  color: #66c0f4;
+  text-decoration: none;
+}
+
+/* footer */
+.footer {
+  background-color: #171a21;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #8f98a0;
+}
+.footer .valve-logo {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer .valve-logo img {
+  vertical-align: middle;
+  margin-bottom: 1rem;
+}
+.footer .links {
+  margin-top: 10px;
+}
+.footer .links a {
+  color: #8f98a0;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer .links a:hover {
+  color: #c6d4df;
+}
+.footer .social-icons {
+  margin-top: 10px;
+}
+.footer .social-icons a {
+  color: #8f98a0;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.footer .social-icons a:hover {
+  color: #c6d4df;
+}
